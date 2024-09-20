@@ -74,7 +74,7 @@ const handleCreateNewUserAPI = async (req, res) => {
             message: `A new User is created successfully!`,
             errCode: 0
         })
-    }, 5000)
+    }, 100)
 }
 
 module.exports = {
